@@ -9,9 +9,9 @@ class Home extends React.Component {
     return (
       <div>
         <h1>Hello <a href={"https://github.com/electrode-io"}>{"Electrode"}</a></h1>
+        <h2>Kemosabe7 demo2</h2>
         <div>
           <h2>Managing States with Redux</h2>
-          <h2>Kemosabe7</h2>
           <label>
             <input onChange={props.onChangeCheck} type={"checkbox"} checked={checked}/>
             Checkbox
