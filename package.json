@@ -25,7 +25,7 @@
   },
   "engines": {
     "node": "^4.x.x || ^6.x.x",
-    "npm": ">= 3.x.x"
+    "npm": "~3.x.x"
   },
   "scripts": {
     "start": "if test \"$NODE_ENV\" = \"production\"; then npm run prod; else gulp dev; fi",
